@@ -1,6 +1,6 @@
 # Bienvenida
 print("¡Bienvenido al Diagnóstico de Personalidad Virtual!")
-print("Voy a hacerte algunas preguntas para conocerte mejor. 😊")
+print("Voy a hacerte algunas preguntas para conocerte mejor.")
 print("¡Responde sinceramente y al final te daré un pequeño diagnóstico!\n")
 
 # Pregunta nombre
@@ -17,7 +17,7 @@ except ValueError:
 color = input("¿Cuál es tu color favorito? ")
 
 # Pregunta si le gusta la pizza
-le_gusta_pizza = input("¿Te gusta la pizza? (sí/no): ").strip().lower()
+le_gusta_pizza = input("¿Te gusta la pizza? 🍕 (sí/no): ").strip().lower()
 
 # Pregunta animal favorito
 animal = input("¿Cuál es tu animal favorito? ")
@@ -57,4 +57,4 @@ if isinstance(edad, int):
         print("Con tu experiencia, eres una persona sabia. ¡Todos deberían escuchar tus historias!")
 
 print("\n=== Fin del Diagnóstico ===")
-print("¡Gracias por participar, " + nombre + "! Espero que te haya sacado una sonrisa. 😊")
+print("¡Gracias por participar, " + nombre + "! Espero que te haya sacado una sonrisa. 😂")
