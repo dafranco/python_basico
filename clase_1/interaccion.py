@@ -31,8 +31,10 @@ print("\n=== Diagnóstico de Personalidad Virtual ===")
 # Análisis basado en el color favorito
 if color.lower() == "azul":
     print("Eres una persona tranquila y reflexiva. ¡Como el color del cielo!")
+    input('Ah, el azul es fantastico, te gusta la camiseta del chelsea?')
 elif color.lower() == "rojo":
     print("Tienes una personalidad apasionada y energética. ¡Cuidado, mundo!")
+    print('Espero no te guste tanto los tomates')
 else:
     print(f"El {color} es un color único, ¡igual que tú!")
 
@@ -45,16 +47,19 @@ elif le_gusta_pizza == "no":
 # Análisis basado en el animal favorito
 print(f"Ah, y como tu animal favorito es el {animal}, ¡se nota que tienes un espíritu {animal.lower()}!")
 
+
+
+def imprimir_recomendacion_por_edad(edad):
+  if 18 <= edad < 30:
+      print("Estás en la flor de la vida. ¡Aprovecha cada momento!")
+  elif 30 <= edad < 60:
+      print("Con sabiduría y experiencia, tienes mucho que ofrecer al mundo.")
+  else:
+      print("Con tu experiencia, eres una persona sabia. ¡Todos deberían escuchar tus historias!")
+
 # Edad
-if isinstance(edad, int):
-    if edad < 18:
-        print("Eres joven y lleno de energía. ¡El mundo está a tus pies!")
-    elif 18 <= edad < 30:
-        print("Estás en la flor de la vida. ¡Aprovecha cada momento!")
-    elif 30 <= edad < 60:
-        print("Con sabiduría y experiencia, tienes mucho que ofrecer al mundo.")
-    else:
-        print("Con tu experiencia, eres una persona sabia. ¡Todos deberían escuchar tus historias!")
+if ingreso_la_edad:
+    imprimir_recomendacion_por_edad(edad)
 
 print("\n=== Fin del Diagnóstico ===")
 print("¡Gracias por participar, " + nombre + "! Espero que te haya sacado una sonrisa. 😂")
