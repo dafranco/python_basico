@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+
+##########################################################################
+#### Para ejecutar este script, antes deberás ejecutar en consola   ######
+#### pip install PyQt5                                              ######
+#### Lo cual agregará la biblioteca para manejo de interfaz gráfica ######
+##########################################################################
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QLineEdit
 from PyQt5.QtCore import Qt
