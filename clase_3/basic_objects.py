@@ -7,17 +7,15 @@ class Puerta:
 
     def abrir(self):
         """
-        Cambia el estado de la puerta a abierta si está cerrada.
+        Cambia el estado de la puerta a abierta
         """
-        if not self.abierta:
-            self.abierta = True
+        self.abierta = True
 
     def cerrar(self):
         """
-        Cambia el estado de la puerta a cerrada si está abierta.
+        Cambia el estado de la puerta a cerrada
         """
-        if self.abierta:
-            self.abierta = False
+        self.abierta = False
 
     def estado(self):
         """
